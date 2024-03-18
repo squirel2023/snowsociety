@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        color: azure;
+        margin: 5px;
+      }
+      header {
+        background-color: rgb(62, 61, 59);
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+      }
+      p {
+        margin: 10px;
+        padding: 5px;
+        font-size: 18px;
+      }
+      .menu {
+        display: flex; /*desplegamos en una linea*/
+        background-color: #e3d3d3; /*color de fondo*/
+        padding: 5px; /*espacio entre la caja*/
+        float: right; /*ubicacion en la derecha*/
+      }
+      /*.(nombre de la clase)*/
+      .menu a {
+        /* todos las etiquetas a dentro de menu*/
+        color: rgb(239, 156, 14); /*color de la letra*/
+        text-align: center; /*alineacion al centro*/
+        padding: 14px 16px; /*color de la letra (arriba, derecha,abajo,izquierda)*/
+        text-decoration: none; /*indicamos que no tiene decoracion*/
+      }
+
+      menu a:hover {
+        /*en el menu y cubra la etiqueta a cambia de color*/
+        background-color: #ddd; /*indicamos el color*/
+      }
+      #imagen {
+        /* para centrar imagen #id .class*/
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>LOS VIEJOS SOLDADOS</h1>
+    </header>
+    <nav class="menu">
+      <a href="#dir">DIRECTOR</a>
+      <a href="#rep">REPARTO</a>
+      <a href="#sin">SINOPSIS</a>
+      <a href="#fot">MULTIMEDIA</a>
+    </nav>
+    <main>
+      <section>
+        <a id="dir"></a>
+        <h2>DEL DIRECTOR</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <img src="jorge.jpg" alt="" id="imagen" />
+      </section>
+      <section>
+        <a id="rep"></a>
+        <h2>REPARTO</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+      </section>
+      <section>
+        <a id="sin"></a>
+        <h2>SINOPSIS</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+      </section>
+      <section>
+        <a id="fot"></a>
+        <h2>IMAGENES Y VIDEO</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          repellendus ipsam odio incidunt magni cupiditate sint quod. Ipsa minus
+          delectus expedita qui et enim quam, veniam provident, placeat quas
+          fuga.
+        </p>
+        <iframe
+          id="imagen"
+          width="853"
+          height="480"
+          src="https://www.youtube.com/embed/J4sQ_ztkHys"
+          title="Los Viejos Soldados | Una película de Jorge Sanjinés | Tráiler largo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <footer>derechos reservados</footer>
+  </body>
+</html>
